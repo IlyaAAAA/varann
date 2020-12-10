@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - VariationRepositoryTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>VariationRepositoryTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/spbstu.project.varann.html">spbstu.project.varann</a> &gt; VariationRepositoryTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.371s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">whenFindByChromAndPosAndRefAndAlt_thenReturnVariation()</td>
+<td class="success">0.371s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2020-12-10 23:15:06.006  INFO 10844 --- [    Test worker] b.t.a.o.j.DataJpaTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [spbstu.project.varann.VariationRepositoryTest], using SpringBootContextLoader
+2020-12-10 23:15:06.007  INFO 10844 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [spbstu.project.varann.VariationRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-12-10 23:15:06.007  INFO 10844 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [spbstu.project.varann.VariationRepositoryTest]: VariationRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-12-10 23:15:06.014  INFO 10844 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration spbstu.project.varann.VarannApplication for test class spbstu.project.varann.VariationRepositoryTest
+2020-12-10 23:15:06.014  INFO 10844 --- [    Test worker] b.t.a.o.j.DataJpaTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-12-10 23:15:06.015  INFO 10844 --- [    Test worker] b.t.a.o.j.DataJpaTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@397807b6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@48b8b506, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7913d80a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7fa96b2b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@61596df, org.springframework.test.context.transaction.TransactionalTestExecutionListener@b08139e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6cbc597d, org.springframework.test.context.event.EventPublishingTestExecutionListener@587887f2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@72f1514c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@39ae386f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@37d7f996, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2b8caf89, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@538fe085]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::             (v2.3.0.M2)
+
+2020-12-10 23:15:06.084  INFO 10844 --- [    Test worker] s.p.varann.VariationRepositoryTest       : Starting VariationRepositoryTest on DESKTOP-E01FUOQ with PID 10844 (started by Ilya in D:\programming\varann)
+2020-12-10 23:15:06.085  INFO 10844 --- [    Test worker] s.p.varann.VariationRepositoryTest       : No active profile set, falling back to default profiles: default
+2020-12-10 23:15:06.198  INFO 10844 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in LAZY mode.
+2020-12-10 23:15:06.221  INFO 10844 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21ms. Found 2 JPA repository interfaces.
+2020-12-10 23:15:06.325  INFO 10844 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-10 23:15:06.332  INFO 10844 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2020-12-10 23:15:06.503  INFO 10844 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2020-12-10 23:15:06.503  INFO 10844 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2020-12-10 23:15:06.604  WARN 10844 --- [    Test worker] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): spbstu.project.varann.domain.VariationID
+2020-12-10 23:15:06.605  WARN 10844 --- [    Test worker] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): spbstu.project.varann.domain.VariationID
+2020-12-10 23:15:07.099  INFO 10844 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-10 23:15:07.100  INFO 10844 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-10 23:15:07.151  INFO 10844 --- [    Test worker] s.p.varann.VariationRepositoryTest       : Started VariationRepositoryTest in 1.134 seconds (JVM running for 20.913)
+2020-12-10 23:15:07.178  INFO 10844 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@6e31cefe testClass = VariationRepositoryTest, testInstance = spbstu.project.varann.VariationRepositoryTest@59ba6da8, testMethod = whenFindByChromAndPosAndRefAndAlt_thenReturnVariation@VariationRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@704e712c testClass = VariationRepositoryTest, locations = '{}', classes = '{class spbstu.project.varann.VarannApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@1fbc10b9, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@146b2b0d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@588afe9b, [ImportsContextCustomizer@3e039d67 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@15c460d9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3ec175d9, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@6219f7d0]; rollback [true]
+Hibernate: 
+    insert 
+    into
+        variation
+        (info, alt, chrom, pos, ref) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        variation0_.alt as alt1_2_,
+        variation0_.chrom as chrom2_2_,
+        variation0_.pos as pos3_2_,
+        variation0_.ref as ref4_2_,
+        variation0_.info as info5_2_ 
+    from
+        variation variation0_ 
+    where
+        variation0_.chrom=? 
+        and variation0_.pos=? 
+        and variation0_.ref=? 
+        and variation0_.alt=?
+2020-12-10 23:15:07.525  INFO 10844 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@6e31cefe testClass = VariationRepositoryTest, testInstance = spbstu.project.varann.VariationRepositoryTest@59ba6da8, testMethod = whenFindByChromAndPosAndRefAndAlt_thenReturnVariation@VariationRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@704e712c testClass = VariationRepositoryTest, locations = '{}', classes = '{class spbstu.project.varann.VarannApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@1fbc10b9, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@146b2b0d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@588afe9b, [ImportsContextCustomizer@3e039d67 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@15c460d9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3ec175d9, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.0.1</a> at 10 дек. 2020 г., 23:15:07</p>
+</div>
+</div>
+</body>
+</html>

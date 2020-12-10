@@ -1,0 +1,1 @@
+./gradlew clean build testClasses bootjar && docker-compose up

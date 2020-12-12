@@ -17,7 +17,7 @@ import javax.servlet.annotation.MultipartConfig;
 public class VariationController {
     private final VariationService variationService;
 
-    @PostMapping
+    @PostMapping("store")
     public void storeVariation(@RequestParam("file") MultipartFile file) {
         try {
             variationService.store(file.getInputStream());
@@ -27,7 +27,7 @@ public class VariationController {
         }
     }
 
-    @GetMapping
+    @PostMapping("annotate")
     public Variation annotateVariation(@RequestBody VariationID variationID) {
         return variationService.annotate(variationID);
     }

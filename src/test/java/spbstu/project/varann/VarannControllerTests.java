@@ -53,7 +53,7 @@ public class VarannControllerTests {
     MockMultipartFile file = new MockMultipartFile("file", "src/main/resources/vcf/test.vcf", "multipart/form-data", fileContent.getBytes());
 
     mockMvc.perform(MockMvcRequestBuilders
-            .multipart("/variation")
+            .multipart("/variation/store")
             .file(file))
             .andExpect(MockMvcResultMatchers.status().isOk());
   }
@@ -77,7 +77,7 @@ public class VarannControllerTests {
             "}";
 
     mockMvc.perform(MockMvcRequestBuilders
-            .get("/variation", str)
+            .post("/variation/annotate", str)
             .contentType(MediaType.APPLICATION_JSON)
             .content(str))
             .andExpect(MockMvcResultMatchers.status().isOk())
